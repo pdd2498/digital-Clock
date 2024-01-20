@@ -23,17 +23,20 @@ const time =setInterval(clock , 1000);
 
 function clock(){
     s++;
-    if(s > 60){
-        s = 1
+    if(s == 60){
+        s = 0
         m++;
-        if(m > 60){
-            m= 1
+        if(m == 60){
+            m= 0
             h++;
-            if(h > 24){
-                h = 1
+            if(h == 24){
+                h = 0
             }
         }
-    }display.innerHTML = h+ ":" + m+":"+s
+    }const ss = s<10?"0"+s:s;
+    const mm = m<10?"0"+m:m;
+    const hh = h<10?"0"+h:h;
+    display.innerHTML = hh+ ":" + mm+":"+ss
 
 }
 
