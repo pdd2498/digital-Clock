@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #251732;
+}
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://th.bing.com/th/id/R.84323b5e982226a6a5842533623bfe26?rik=pAjPdQrUB4tv0w&riu=http%3a%2f%2fwww.kickvick.com%2fwp-content%2fuploads%2f2014%2f12%2fnight-sky-photos-a-73.jpg&ehk=04kyPwhb13ppTipT6X7IS2OntpkXy4RKXUzRQg6araA%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 30vw 35vh;
+    width: 30vw;
+    height: 30vh;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.flx{
+    width: 60%;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid antiquewhite;
+    padding: 0 30px;
+    border-radius: 30px;
+}
